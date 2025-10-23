@@ -17,6 +17,7 @@ Config::set('rrd.enable', false);
 Config::set('influxdb.enable', false);
 Config::set('influxdbv2.enable', false);
 Config::set('nographite', true);
+Config::set('kafka.enable', false);
 
 function print_help()
 {
